@@ -1,7 +1,7 @@
 const Razorpay = require('razorpay')
 const app = require('express')()
 var crypto = require("crypto");
-const port = 3001
+const port = process.env.PORT || 3001
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const request = require('request');
