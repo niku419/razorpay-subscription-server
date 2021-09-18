@@ -5,7 +5,7 @@ const port = 3001
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const request = require('request');
-require('dotenv')
+
 const key = process.env.key
 const secret = process.env.secret  
 app.use(cors({
