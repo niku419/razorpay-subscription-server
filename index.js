@@ -9,7 +9,7 @@ const request = require('request');
 const key = process.env.key
 const secret = process.env.secret  
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: '*'
 }))
 app.use(bodyParser.json())
 var instance = new Razorpay({
